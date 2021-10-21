@@ -8,3 +8,7 @@
     color: #FFFFFF;
 
 }
+.projekt .projeck-title{
+    color: var(--title-text-color);
+
+}
