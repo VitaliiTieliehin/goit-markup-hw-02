@@ -1,0 +1,65 @@
+body{
+    background-color: #fff;
+    color: #757575;
+}
+.list{
+    list-style: none;
+}
+
+/* site logo */
+.logo{
+    color: #2196F3;
+}
+.logo-black{
+    color:#000000 ;
+}
+.logo-white{ color:#FFFFFF;
+}
+
+/* site nav */
+.menu-nav .link{
+    color: #000000;
+}
+.menu-nav .link:hover,
+.menu-nav .link:focus{
+    color: #2196F3;
+}
+
+/* contact section */
+.contact-section .link{
+    color: #000000;
+}
+.contact-section .link:hover,
+.contact-section .link:focus{
+    color: #2196F3;
+}
+/* hero */
+.hero{}
+.hero .hero-title{
+    color: #000000;
+}
+/* section*/
+
+.section-title{
+    color: #000;
+}
+
+
+
+
+
+
+/* Основной цвет текста  #212121 */
+
+/* вторичный цвет текста #757575  */
+
+/* Цвет акцента #2196F3 */
+
+/* Акцент кнопки #188CE8 */
+
+/* Белый цвет #FFFFFF */
+
+
+
+
+
