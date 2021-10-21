@@ -1,0 +1,31 @@
+
+
+
+
+/* hero */
+
+.hero .hero-title{
+    color: var(--title-text-color);
+}
+/* button */
+.button{
+    background-color: var(--akcen-color-button);
+    color: var(--primeri-white-color);
+}
+/* work-section */
+.work .work-title{
+    color:var(--title-text-color);}
+
+/* section*/
+
+.section-title{
+    color: var(--title-text-color);
+}
+
+ /* team-section */
+.team .team-title{
+     color: var(--title-text-color);
+ }
+ .team .team-card{
+     color: var(--title-text-color);
+ }
