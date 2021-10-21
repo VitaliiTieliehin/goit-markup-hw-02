@@ -1,6 +1,15 @@
+:root{
+    --title-text-color: #212121;
+    --text-color:#757575;
+    --akcent-color: #2196F3;
+    --akcen-color-button:#188CE8;
+    --primeri-white-color:#FFFFFF;
+
+}
+
 body{
-    background-color: #fff;
-    color: #757575;
+    background-color: var(--primeri-white-color);
+    color: var(--text-color);
 }
 .list{
     list-style: none;
@@ -8,58 +17,58 @@ body{
 
 /* site logo */
 .logo{
-    color: #2196F3;
+    color:var(--akcent-color);
 }
 .logo-black{
-    color:#000000 ;
+    color: var(--title-text-color) ;    
 }
-.logo-white{ color:#FFFFFF;
+.logo-white{ color:var(--primeri-white-color);
 }
+
 
 /* site nav */
 .menu-nav .link{
-    color: #000000;
+    color: var(--title-text-color);
 }
 .menu-nav .link:hover,
 .menu-nav .link:focus{
-    color: #2196F3;
+    color: var(--akcent-color);
 }
-
+.menu-nav .link.current{
+    color: var(--akcent-color);
+}
 /* contact section */
 .contact-section .link{
-    color: #000000;
+    color: var(--title-text-color);
 }
 .contact-section .link:hover,
 .contact-section .link:focus{
-    color: #2196F3;
+    color:var(--akcent-color);
 }
 /* hero */
-.hero{}
+
 .hero .hero-title{
-    color: #000000;
+    color: var(--title-text-color);
 }
+/* button */
+.button{
+    background-color: var(--akcen-color-button);
+    color: var(--primeri-white-color);
+}
+/* work-section */
+.work .work-title{
+    color:var(--title-text-color);}
+
 /* section*/
 
 .section-title{
-    color: #000;
+    color: var(--title-text-color);
 }
 
-
-
-
-
-
-/* Основной цвет текста  #212121 */
-
-/* вторичный цвет текста #757575  */
-
-/* Цвет акцента #2196F3 */
-
-/* Акцент кнопки #188CE8 */
-
-/* Белый цвет #FFFFFF */
-
-
-
-
-
+ /* team-section */
+.team .team-title{
+     color: var(--title-text-color);
+ }
+ .team .team-card{
+     color: var(--title-text-color);
+ }
