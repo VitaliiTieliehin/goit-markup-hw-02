@@ -10,7 +10,9 @@
 body{
     background-color: var(--primeri-white-color);
     color: var(--text-color);
+    font-family: Roboto, sans-serif;
 }
+
 .list{
     list-style: none;
 }
@@ -18,17 +20,24 @@ body{
 /* site logo */
 .logo{
     color:var(--akcent-color);
-}
+    font-family: Raleway,sans-serif;
+    font-size: 26px;
+    line-height: 1.19;
+ }
 .logo-black{
-    color: var(--title-text-color) ;    
+    color: var(--title-text-color) ;
+    
 }
-.logo-white{ color:var(--primeri-white-color);
+.logo-white{ 
+    color:var(--primeri-white-color);
+    
 }
 
 
 /* site nav */
 .menu-nav .link{
     color: var(--title-text-color);
+    
 }
 .menu-nav .link:hover,
 .menu-nav .link:focus{
@@ -45,6 +54,14 @@ body{
 .contact-section .link:focus{
     color:var(--akcent-color);
 }
+
+/* adres-section */
+.adres-section{
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+ }
 
 
  

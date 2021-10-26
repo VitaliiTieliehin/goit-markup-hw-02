@@ -1,31 +1,51 @@
-
-
-
-
 /* hero */
-
 .hero .hero-title{
     color: var(--title-text-color);
+    font-size: 44px;
+    line-height: 1.93;
+   
+    
 }
+
 /* button */
 .button{
     background-color: var(--akcen-color-button);
     color: var(--primeri-white-color);
+    font-family: inherit;
 }
-/* work-section */
-.work .work-title{
-    color:var(--title-text-color);}
 
 /* section*/
-
 .section-title{
     color: var(--title-text-color);
+    font-size: 14PX;
+    line-height: 1.14;   
+}
+.section-description{
+    
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+    /* work-section */
+.work .work-title{
+    color:var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.17;
+
+    
 }
 
  /* team-section */
 .team .team-title{
      color: var(--title-text-color);
+     font-size: 36px;
+     line-height: 1.17;
  }
  .team .team-card{
      color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.19;
  }
+
+ 
+ 
