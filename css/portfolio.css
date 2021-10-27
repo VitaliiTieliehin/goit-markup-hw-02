@@ -2,6 +2,10 @@
 .button{
     background-color:#F5F4FA;
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
     font-family: inherit;
 }
 .button:hover, 
@@ -10,8 +14,18 @@
     color: #FFFFFF;
 
 }
-/* project-section */
-.projekt .projeck-title{
+/* projects */
+.projects-title{
     color: var(--title-text-color);
+    font-weight: 700;   
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.projects-types{
+font-size: 16px;
+font-weight: 400;
+line-height: 1.88;
+letter-spacing: 0.03em;
 
 }
